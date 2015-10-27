@@ -1,0 +1,13 @@
+var cidades = ['Salvador','São Paulo','Rio de Janeiro','Tocantins'];
+
+
+var resposta = function(){
+    for(var i = 0 ; i < cidades.length;i++){
+        var pos= str[i];
+        if(pos [0] == 'S'){
+            console.log(pos);
+        }
+    }
+}
+
+resposta();
