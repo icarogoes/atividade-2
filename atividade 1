@@ -1,0 +1,28 @@
+atividade 1
+1
+<!DOCTYPE html>
+<html>
+
+  <head>
+ <script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+function pegaletras() {
+  var  palavra= document.getElementById('palavra').value;
+  var resp = palavra.substring(0, 4);
+  document.getElementById('resposta').innerHTML resp;
+
+    
+  </head>
+
+  <body>
+    <h1>Primeira Questão</h1>
+          As quatro primeiras letras são:
+         <palavra id="resp">
+      </palavra>
+        <input id="palavra"> 
+    <input type="submit" id="enviar" onclick="pegaletras();">
+  </body>
+
+</html>
